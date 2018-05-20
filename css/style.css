@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/*
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+/*start header css*/
+
+/*start navbar*/
+
+.custom_navbar_nav {}
+
+.custom_navbar_nav li {
+    text-transform: uppercase;
+}
+
+.custom_navbar_nav li a {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    color: #626262 !important;
+    transition: 1s;
+}
+
+.custom_navbar_nav li a:hover {
+
+    background: #626262;
+    color: #fff !important;
+    /*    transform: scale(1.1);*/
+}
+
+/*start photodairy css*/
+
+.text_photodairy .comment {
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.common_style small {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.common_style h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+.common_style p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+}
+
+/*start form css*/
+
+.sign_up_form {
+    background-color: #f0f0f0;
+}
+
+.text_form h1 {
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.custom_form {
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #000;
+    border-radius: 0 !important;
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+}
+
+.custom_img {
+    right: 0;
+    top: 0;
+}
+
+/*start lifestyle more css*/
+
+.custom_btn {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    border-color: #626262;
+}
+.custom_btn:hover{
+    background: #626262 !important;
+}
+/*start footer css*/
+
+.footer {
+    background-color: #f0f0f0;
+    min-height: 50px;
+}
+
+.list_footer ul {}
+
+.list_footer ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+}
+
+.list_footer ul li a {
+    color: #000 !important;
+}
+
+.list_footer ul li a:hover {}
+
+.follow_footer {}
+
+.follow_footer ul {}
+
+.follow_footer ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.follow_footer ul li a {
+    color: #626262 !important;
+}
+
+.follow_footer ul li a:hover {}
