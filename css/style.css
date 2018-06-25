@@ -110,6 +110,7 @@ font-family: 'Inconsolata', monospace;
     font-size: 20px;
     color: #626262;
     border-color: #626262;
+    transition: 1s;
 }
 .custom_btn:hover{
     background: #626262 !important;
